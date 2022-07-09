@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colour>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+
+	<metallic>false</metallic>
+
+	<name><![CDATA[elephant brown]]></name>
+
+	<colour>8e7553</colour>
+	<lightColour>8e7553</lightColour>
+	<coveringIconColour>8e7553</coveringIconColour>
+
+	<formattingNames>
+		<name><![CDATA[elephantBrown]]></name>
+	</formattingNames>
+
+	<tags/>
+	
+</colour>

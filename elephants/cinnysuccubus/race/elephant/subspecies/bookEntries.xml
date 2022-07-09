@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bookText>
+	
+	<!-- You can define an author name to be shown in-game by setting the 'author' attribute.
+		I advise using a lore-friendly name so as to not break immersion, although of course you're free to use whatever name you like in your mod. -->
+	<htmlContent tag="HYENA_BASIC" author="Dr. Sangoma"><![CDATA[
+	<p>
+		Elephant-morphs are almost exclusively found roaming the savannah and desert in the south of Lilith's Realm, although the odd individual may sometimes be seen wandering the streets of Dominion. Grey, leathery skin, and their generally enormous size is usually enough to identify a person as a elephant-morph.
+	</p>
+	]]>
+	</htmlContent>
+	
+	<htmlContent tag="ELEPHANT_ADVANCED" author="Dr. Sangoma"><![CDATA[
+	<p style='text-align:center;'>
+		[style.boldElephantGrey(Enormous Elephants)]
+	</p>
+	<p>
+		<i>WIP, sorry! - CinnySuccubus</i>
+	</p>
+	]]>
+	</htmlContent>
+	
+</bookText>
