@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coveringType>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<category>MAIN_SKIN</category>
+	
+	<determiner><![CDATA[a layer of]]></determiner>
+	<name><![CDATA[metal]]></name>
+	<namePlural pluralByDefault="false"><![CDATA[metal]]></namePlural> 
+	
+	<naturalCoveringModifiers>
+		<modifier>SMOOTH</modifier>
+		<modifier>METALLIC</modifier>
+	</naturalCoveringModifiers>
+	
+	<extraCoveringModifiers/>
+	
+	<naturalPatterns/>
+	
+	<extraPatterns/>
+	
+	<naturalColoursPrimary>
+		<colour>COVERING_BRONZE</colour>
+		<colour>COVERING_SILVER</colour>
+		<colour>COVERING_GOLD</colour>
+		<colour>COVERING_PLATINUM</colour>
+		<colour>COVERING_ROSE_GOLD</colour>
+		<colour>COVERING_COPPER</colour>
+		<colour>COVERING_BRASS</colour>
+		<colour>COVERING_STEEL</colour>
+		<colour>COVERING_BLACK_STEEL</colour>
+	</naturalColoursPrimary> 
+	
+	<extraColoursPrimary>
+		<colour>COVERING_BRONZE</colour>
+		<colour>COVERING_SILVER</colour>
+		<colour>COVERING_GOLD</colour>
+		<colour>COVERING_PLATINUM</colour>
+		<colour>COVERING_ROSE_GOLD</colour>
+		<colour>COVERING_COPPER</colour>
+		<colour>COVERING_BRASS</colour>
+		<colour>COVERING_STEEL</colour>
+		<colour>COVERING_BLACK_STEEL</colour>
+	</extraColoursPrimary>
+	
+	<naturalColoursSecondary>
+		<colour>COVERING_BRONZE</colour>
+		<colour>COVERING_SILVER</colour>
+		<colour>COVERING_GOLD</colour>
+		<colour>COVERING_PLATINUM</colour>
+		<colour>COVERING_ROSE_GOLD</colour>
+		<colour>COVERING_COPPER</colour>
+		<colour>COVERING_BRASS</colour>
+		<colour>COVERING_STEEL</colour>
+		<colour>COVERING_BLACK_STEEL</colour>
+	</naturalColoursSecondary>
+	
+	<extraColoursSecondary>
+		<colour>COVERING_BRONZE</colour>
+		<colour>COVERING_SILVER</colour>
+		<colour>COVERING_GOLD</colour>
+		<colour>COVERING_PLATINUM</colour>
+		<colour>COVERING_ROSE_GOLD</colour>
+		<colour>COVERING_COPPER</colour>
+		<colour>COVERING_BRASS</colour>
+		<colour>COVERING_STEEL</colour>
+		<colour>COVERING_BLACK_STEEL</colour>
+	</extraColoursSecondary>
+	
+</coveringType>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mouth>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<race>cinnysuccubus_synthetic</race>
+	
+	<coveringType>cinnysuccubus_synthetic_skin</coveringType>
+	
+	<tongueType>cinnysuccubus_synthetic_tongue</tongueType>
+	
+	<names>
+		<name><![CDATA[mouth]]></name>
+	</names>
+	
+	<namesPlural>
+		<name><![CDATA[mouths]]></name>
+	</namesPlural>
+	
+	<descriptorsMasculine/>
+	
+	<descriptorsFeminine/>
+	
+	<lipNames>
+		<name><![CDATA[lip]]></name>
+	</lipNames>
+	
+	<lipNamesPlural>
+		<name><![CDATA[lips]]></name>
+	</lipNamesPlural>
+	
+	<lipDescriptorsMasculine allowSizeDescriptors="true"/>
+	
+	<lipDescriptorsFeminine allowSizeDescriptors="true"/>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.lipSize], [npc.mouthColourPrimary(true)] [npc.lips]
+		#IF(npc.isWearingLipstick())
+			#IF(npc.isPiercedLip())
+				, which have been pierced, and
+			#ELSE
+				, which
+			#ENDIF
+			 are currently [npc.materialCompositionDescriptor]
+			#IF(npc.isHeavyMakeup(BODY_COVERING_TYPE_MAKEUP_LIPSTICK) && game.isLipstickMarkingEnabled())
+				 a [style.colourPinkDeep(heavy layer)] of
+			#ENDIF
+			 [#npc.getLipstick().getFullDescription(npc, true)].
+		#ELSE
+			#IF(npc.isPiercedLip()), which have been pierced#ENDIF.
+		#ENDIF
+		 [npc.Her] throat is [npc.mouthColourSecondary(true)] in colour.
+	]]></bodyDescription>
+	
+	<defaultOrificeModifiers/>
+	
+</mouth>

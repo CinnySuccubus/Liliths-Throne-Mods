@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<coreAttributes>
+		<value>250</value> 
+		<determiner><![CDATA[a]]></determiner>
+		<name><![CDATA[Nanite Vial]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Nanite Vials]]></namePlural>
+		<description><![CDATA[A sealed vial of nanites, marked with various warning labels...]]></description> 
+		
+		<useDescriptor>drink</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>RARE</rarity> 
+
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="70" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/cinnysuccubus/race/synthetic/subspecies/synthetic.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="70">synthetic_nanite_vial.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>cinnysuccubus_synthetic</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+		
+		<potionDescriptor><![CDATA[synthetic]]></potionDescriptor>
+		<associatedRace>cinnysuccubus_synthetic</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[Adds [#ATTRIBUTE_MAJOR_CORRUPTION.getFormattedValue(25)] to 'potion effects']]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(start)] to feel the corrupting effects of the nanites...
+			</p>
+			[#npc.addPotionEffect(ATTRIBUTE_MAJOR_CORRUPTION, 25)]
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+			#IF(npc.getTorsoType()==TORSO_TYPE_cinnysuccubus_synthetic_torso)
+				[npc.Name] [npc.verb(connect)] the vial to [npc.her] nanite input port on [npc.her] torso, the contents quickly disappearing into [npc.her] body.
+			#ELSE
+				[npc.Name] cautiously [npc.verb(open)] the vial and [npc.verb(drink)] the contents.
+			#END
+		]]></selfUse>
+		<otherUse><![CDATA[
+			#IF(npc.getTorsoType()==TORSO_TYPE_cinnysuccubus_synthetic_torso)
+				[npc.Name] [npc.verb(connect)] the vial to [npc2.her] nanite input port on [npc2.her] torso, the contents quickly disappearing into [npc2.her] body.
+			#ELSE
+				[npc.Name] cautiously [npc.verb(open)] the vial and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to drink the contents.
+			#END
+		]]></otherUse>
+	</useDescriptions>
+
+	
+</item>

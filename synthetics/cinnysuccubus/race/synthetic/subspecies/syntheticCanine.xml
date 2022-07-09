@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<race>cinnysuccubus_synthetic</race>
+	
+	<colour>cinnysuccubus_synthetic</colour>
+	<secondaryColour>cinnysuccubus_synthetic</secondaryColour>
+	<tertiaryColour>cinnysuccubus_synthetic</tertiaryColour>
+	
+	<mainSubspecies>false</mainSubspecies>
+	
+	<baseSlaveValue>25000</baseSlaveValue>
+	
+	<attributeItemId>cinnysuccubus_race_synthetic_power_cola</attributeItemId>
+	<transformativeItemId>cinnysuccubus_race_synthetic_nanite_vial</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>false</shortStature>
+	
+	<bipedalSubspecies>false</bipedalSubspecies>
+	
+	<aquatic>false</aquatic>
+	
+	<personalityChances>
+		<entry chance="0.6">LEWD</entry>
+	</personalityChances>
+	
+	<applySubspeciesChanges><![CDATA[
+		#IF(targetedBody.getLegType()!=LEG_TYPE_cinnysuccubus_synthetic_legCanine)
+			[#targetedBody.setLegType(LEG_TYPE_cinnysuccubus_synthetic_legCanine)]
+		#ENDIF
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_cinnysuccubus_synthetic)
+			#IF(targetedBody.getLegType()==LEG_TYPE_cinnysuccubus_synthetic_legCanine)
+				100
+			#ELSE
+				0
+			#ENDIF
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+
+	<iconName displaySize="80">syntheticCanine</iconName>
+
+	<backgroundName>background</backgroundName>
+	<bookIconName>synthetic</bookIconName>
+
+	<bookName>Artificial Intelligence</bookName>
+
+	<basicDescriptionId>SYNTHETIC_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SYNTHETIC_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>ONE_LOW</defaultPreference>
+	
+	<nameAnthro>
+		<namesDefault>
+			<name><![CDATA[synth-hound]]></name>
+			<namePlural><![CDATA[synth-hounds]]></namePlural>
+			<singularMaleName><![CDATA[synth-hound-boy]]></singularMaleName>
+			<singularFemaleName><![CDATA[synth-hound-girl]]></singularFemaleName>
+			<pluralMaleName><![CDATA[synth-hound-boys]]></pluralMaleName>
+			<pluralFemaleName><![CDATA[synth-hound-girls]]></pluralFemaleName>
+		</namesDefault>
+		<names legConfiguration="QUADRUPEDAL">
+			<name><![CDATA[synth-hound]]></name>
+			<namePlural><![CDATA[synth-hounds]]></namePlural>
+			<singularMaleName><![CDATA[synth-hound-boy]]></singularMaleName>
+			<singularFemaleName><![CDATA[synth-hound-girl]]></singularFemaleName>
+			<pluralMaleName><![CDATA[synth-hound-boys]]></pluralMaleName>
+			<pluralFemaleName><![CDATA[synth-hound-girls]]></pluralFemaleName>
+		</names>
+	</nameAnthro>
+
+	<description><![CDATA[
+		A fully artifical lifeform, known as a 'synthetic', with the ability to transform into various animalistic forms.
+	]]></description>
+		
+	<feralAttributes>
+		<name><![CDATA[synth-hound]]></name>
+		<namePlural><![CDATA[synth-hounds]]></namePlural>
+		<singularMaleName><![CDATA[synth-hound]]></singularMaleName>
+		<singularFemaleName><![CDATA[synth-hound]]></singularFemaleName>
+		<pluralMaleName><![CDATA[synth-hounds]]></pluralMaleName>
+		<pluralFemaleName><![CDATA[synth-hounds]]></pluralFemaleName>
+		
+		<legConfiguration>QUADRUPEDAL</legConfiguration>
+
+		<sizeHeight>true</sizeHeight>
+		<size>80</size>
+		<serpentTailLength>0.5</serpentTailLength>
+
+		<breastRowCount>0</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>1</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>true</armsOrWingsPresent>
+		<fingerActionsAvailable>true</fingerActionsAvailable>
+		<hairPresent>false</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] synthetic body is very strong, and [npc.she] [npc.has] a strong urge to make the most of opportunities which present themselves to [npc.herHim]. A nanomachine reservoir inside [npc.her] body allows self-transformation into various synthetic forms.
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="10">MAJOR_PHYSIQUE</attribute>
+		<attribute value="25">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">RESISTANCE_PHYSICAL</attribute>
+		<attribute value="-10">RESISTANCE_LUST</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="2" feminineWeighting="1">PHYSICAL</category>
+		<category masculineWeighting="7" feminineWeighting="7">LUST</category>
+		<category masculineWeighting="1" feminineWeighting="2">ARCANE</category>
+	</perkWeightings>
+	
+	<regionLocations>
+		<region rarity="ONE_VERY_RARE">DOMINION</region>
+		<region rarity="TWO_RARE">SUBMISSION</region>
+	</regionLocations>
+	<worldLocations>
+		<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+	<placeLocations/>
+
+	<flags/>
+	
+</subspecies>
