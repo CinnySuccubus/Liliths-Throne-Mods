@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<breast>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<race>cinnysuccubus_synthetic</race>
+	
+	<transformationName><![CDATA[synthetic]]></transformationName>
+	
+	<coveringType>cinnysuccubus_synthetic_skin</coveringType>
+	
+	<nippleType>cinnysuccubus_synthetic_nipple</nippleType>
+	
+	<fluidType>cinnysuccubus_synthetic_milk</fluidType>
+	
+	<names/>
+	
+	<namesPlural/>
+	
+	<descriptors/>
+	
+	<namesFlat/>
+	
+	<namesPluralFlat/>
+	
+	<descriptorsFlat/>
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldSynthetic(synthetic)], [npc.nipplesFullDescription], and when lactating, [npc.she] will produce [style.boldSynthetic(synthetic milk)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		On each of [npc.her] [npc.breastSize] [npc.breasts], [npc.she] [npc.has] [npc.nipplesPerBreast] synthetic, [npc.nipplesFullDescription].
+	]]></bodyDescription>
+	
+	<crotchBoobsTransformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldSynthetic(synthetic)], [npc.crotchNipplesFullDescription], and when lactating, [npc.she] will produce [style.boldSynthetic(synthetic milk)].
+	]]></crotchBoobsTransformationDescription>
+	
+	<crotchBoobsBodyDescription><![CDATA[
+		On each of [npc.her] [npc.crotchBoobSize] [npc.crotchBoobs], [npc.she] [npc.has] [npc.crotchNipplesPerBreast] synthetic, [npc.crotchNipplesFullDescription].
+	]]></crotchBoobsBodyDescription>
+	
+</breast>

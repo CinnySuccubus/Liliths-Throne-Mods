@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<antenna>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+
+	<race>cinnysuccubus_synthetic</race>
+
+	<transformationName><![CDATA[synthetic]]></transformationName>
+	
+	<coveringType>cinnysuccubus_synthetic_metal</coveringType>
+	
+	<defaultAntennaePerRow>2</defaultAntennaePerRow>
+	
+	<name><![CDATA[antenna]]></name>
+
+	<namePlural><![CDATA[antennae]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>metallic</descriptor>
+		<descriptor>thick</descriptor>
+	</descriptorsMasculine>
+
+	<descriptorsFeminine>
+		<descriptor>metallic</descriptor>
+		<descriptor>delicate</descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+	[npc.She] now [npc.has] sleek, metallic [npc.antennae].
+	<br/>[npc.Name] now [npc.has] [npc.antennaeDeterminer] [style.boldSynthetic(metallic [npc.antennae])].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+	[npc.AntennaeDeterminer] [npc.antennaSize], [npc.antennaColour(true)] [npc.antennae] #IF(npc.getTotalHorns()==1)grows#ELSEgrow#ENDIF out of the #IF(npc.getHornsPerRow()==1)middle#ELSEsides#ENDIF of [npc.her] forehead.
+	]]></bodyDescription>
+	
+</antenna>

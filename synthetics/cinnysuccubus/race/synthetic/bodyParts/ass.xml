@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ass>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<race>cinnysuccubus_synthetic</race>
+	
+	<transformationName><![CDATA[synthetic]]></transformationName>
+	
+	<coveringType>cinnysuccubus_synthetic_skin</coveringType>
+	
+	<anusType>cinnysuccubus_synthetic_anus</anusType>
+	
+	<names/>
+	
+	<namesPlural/>
+	
+	<descriptorsMasculine/>
+	
+	<descriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] a [style.boldSynthetic(synthetic)], [npc.assholeFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] a synthetic, [npc.anusFullDescription(true)]
+	]]></bodyDescription>
+	
+</ass>

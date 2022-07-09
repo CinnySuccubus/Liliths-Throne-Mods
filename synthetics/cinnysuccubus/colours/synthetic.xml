@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<colour>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<metallic>true</metallic>
+	
+	<name><![CDATA[metallic grey]]></name>
+	
+	<colour>999999</colour>
+	
+	<lightColour>999999</lightColour>
+	
+	<coveringIconColour>999999</coveringIconColour>
+	
+	<formattingNames>
+		<name><![CDATA[synthetic]]></name>
+	</formattingNames>
+	
+	<tags/>
+	
+</colour>
