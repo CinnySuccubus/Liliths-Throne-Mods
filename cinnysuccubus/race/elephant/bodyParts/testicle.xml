@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testicle>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+
+	<race>cinnysuccubus_elephant</race>
+
+	<coveringType>cinnysuccubus_elephant_skin</coveringType>
+
+	<fluidType>cinnysuccubus_elephant_cum</fluidType>
+
+	<internal>false</internal>
+
+	<names/>
+	<namesPlural/>
+
+	<descriptors/>
+	
+</testicle>

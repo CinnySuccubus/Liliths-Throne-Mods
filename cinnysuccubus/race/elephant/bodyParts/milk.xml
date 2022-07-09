@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+
+	<race>cinnysuccubus_elephant</race>
+
+	<transformationName><![CDATA[elephant]]></transformationName>
+
+	<baseFluidType>MILK</baseFluidType>
+
+	<flavour>MILK</flavour>
+
+	<namesMasculine/>
+
+	<namesFeminine/>
+
+	<descriptorsMasculine>
+		<name><![CDATA[elephant]]></name>
+	</descriptorsMasculine>
+
+	<descriptorsFeminine>
+		<name><![CDATA[elephant]]></name>
+	</descriptorsFeminine>
+
+	<defaultFluidModifiers/>
+	
+</fluid>
