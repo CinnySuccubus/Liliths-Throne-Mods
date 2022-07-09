@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tentacle>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<race>cinnysuccubus_synthetic</race>
+	
+	<transformationName><![CDATA[synthetic]]></transformationName>
+	
+	<coveringType>cinnysuccubus_synthetic_metal</coveringType>
+	
+	<defaultGirth>2</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>2.5</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TAPERING_NONE</tag>
+		<tag>TAIL_PREHENSILE</tag>
+		<tag>TAIL_SUITABLE_FOR_PENETRATION</tag>
+		<tag>TAIL_ATTACK</tag>
+		<tag>TAIL_TAPERING_NONE</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[tentacle]]></name>
+
+	<namePlural><![CDATA[tentacles]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>strong</descriptor>
+		<descriptor>metallic</descriptor>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<descriptor>strong</descriptor>
+		<descriptor>metallic</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>rounded</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>rounded</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		In place of legs, [npc.sheHasFull] [npc.tentacleCount] [npc.tentacleColour(true)] metallic tentacles, over which [npc.sheHasFull] complete control, allowing [npc.herHim] to use them to grip and hold objects.
+	]]></bodyDescription>
+	
+</tentacle>

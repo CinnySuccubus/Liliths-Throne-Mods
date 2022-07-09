@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<face>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<race>cinnysuccubus_synthetic</race>
+	
+	<transformationName><![CDATA[synthetic draconic]]></transformationName>
+	
+	<coveringType>cinnysuccubus_synthetic_skin</coveringType>
+	
+	<facialHairAllowed>true</facialHairAllowed>
+	
+	<mouthType>cinnysuccubus_synthetic_mouthDraconic</mouthType>
+	
+	<tags>
+		<tag>FACE_MUZZLE</tag>
+		<tag>FACE_FANGS</tag>
+	</tags>
+	
+	<names/>
+
+	<namesPlural/> 
+	
+	<descriptorsMasculine/>
+	
+	<descriptorsFeminine/>
+	
+	<noseName><![CDATA[nose]]></noseName>
+
+	<noseNamePlural><![CDATA[noses]]></noseNamePlural>
+	
+	<noseDescriptorsMasculine/>
+	
+	<noseDescriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.Her] expression begins to shift and distort as it morphs and pushes out into an impossibly-smooth anthropomorphic draconic face, and [npc.her] tongue tapers to fit, taking on a similar draconic form.
+		<br/>[npc.Name] now [npc.has] an anthropomorphic [style.boldSynthetic(draco-synth face)], [npc.materialDescriptor] [npc.faceFullDescription]. Within [npc.her] [npc.mouth], [npc.she] [npc.has] a [style.boldSynthetic(draco-synth tongue)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.a_feminineDescriptor(true)], synthetic face, [npc.materialCompositionDescriptor] [npc.faceFullDescription(true)].
+	]]></bodyDescription>
+	
+	<bodyDescriptionFeral><![CDATA[
+		[npc.SheHasFull] the [npc.feminineDescriptor(true)] face of a feral [npc.legRace], which is [npc.materialDescriptor] [npc.faceFullDescription(true)].
+	]]></bodyDescriptionFeral>
+	
+</face>

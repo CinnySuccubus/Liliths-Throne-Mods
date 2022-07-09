@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<!-- GENERAL INFORMATION: If you are unsure of anything, please use the LT Discord to ask for help! -->
+	
+	<race>cinnysuccubus_synthetic</race>
+	
+	<transformationName><![CDATA[synthetic]]></transformationName>
+	
+	<coveringType>cinnysuccubus_synthetic_metal</coveringType>
+	
+	<spinneret>false</spinneret>
+	
+	<defaultGirth>2</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>0.5</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TYPE_GENERIC</tag>
+		<tag>TAIL_PREHENSILE</tag>
+		<tag>TAIL_SUITABLE_FOR_PENETRATION</tag>
+		<tag>TAIL_ATTACK</tag>
+		<tag>TAIL_TAPERING_NONE</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[tail]]></name>
+	<namePlural><![CDATA[tails]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>strong</descriptor>
+		<descriptor>metallic</descriptor>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<descriptor>strong</descriptor>
+		<descriptor>metallic</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>rounded</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>rounded</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A synthetic tail sprouts from just above [npc.her] ass, rapidly growing in size until it's about [npc.tailLength] long. [npc.She] quickly [npc.verb(realise)] that [npc.she] [npc.has] full control over it, and [npc.is] able to use it to grip and hold objects.
+			<br/>[npc.Name] now [npc.has] a [style.boldSynthetic(metallic, synthetic tail)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ELSE
+			[npc.TailCount] synthetic tails sprout from just above [npc.her] ass, rapidly growing in size until they're each about [npc.tailLength] long. [npc.She] quickly [npc.verb(realise)] that [npc.she] [npc.has] full control over them, and [npc.is] able to use them to grip and hold objects
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldSynthetic(metallic, synthetic tail)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ENDIF
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		Growing out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] synthetic tail, which [npc.she] can use to grip and hold objects.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] synthetic tails, which [npc.she] can use them to grip and hold objects.
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>
